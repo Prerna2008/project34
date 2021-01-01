@@ -7,7 +7,7 @@ class Pendulum {
             slop:1,
             inertia: Infinity
         };
-        this.body = Bodies.rectangle(x,y,40,40,options);
+        this.body = Bodies.rectangle(x,y,60,40,options);
         this.x=x;
         this.y=y;
         World.add(world,this.body);
